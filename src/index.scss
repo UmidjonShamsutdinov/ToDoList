@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000;
+}
+
+
+button{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+button:active{
+    transform: scale(0.97);
+}
+
+button:hover{
+    opacity: 0.8;
+}
